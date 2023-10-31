@@ -1,25 +1,5 @@
-:root {
-    --main-color: teal;
-    --secondary-color: yellow;
-    --third-color: orange;
-    --accent-color: red;
-}
-
-* {
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-}
-
-
-
-.title {
-    font-size: 2rem;
-    border: 5px solid var(--secondary-color);
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    color: var(--third-color);
-    background-color: var(--main-color);
-}
+@import "./components/header.css";
+@import "./Components/card.css";
+@import "./Components/button.css";
+@import "./Components/navigation.css";
+@import "./global.css";
