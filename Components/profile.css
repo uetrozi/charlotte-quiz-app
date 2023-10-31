@@ -7,7 +7,6 @@
 
 .profile {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -23,4 +22,42 @@
 
 .profile-about {
   padding: 50px;
+}
+
+.counters {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.counter-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.settings {
+  padding: 50px;
+}
+
+.settings-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 35px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
