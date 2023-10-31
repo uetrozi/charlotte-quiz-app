@@ -1,6 +1,6 @@
 .footer-navbar {
   text-align: center;
-  border: 5px solid var(--border-color);
+  border-top: 5px solid var(--border-color);
   width: 100vw;
   display: flex;
   justify-content: space-around;
@@ -13,7 +13,6 @@
 }
 .footer-navbar-link {
   text-align: center;
-  
 }
 
 .footer-navbar-image {
