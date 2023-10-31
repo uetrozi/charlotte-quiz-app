@@ -1,0 +1,19 @@
+.footer-navbar {
+  text-align: center;
+  border: 5px solid var(--border-color);
+  width: 100vw;
+  display: flex;
+  color: var(--accent-color);
+  background-color: var(--main-color);
+  position: fixed;
+  padding: 20px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.footer-navbar-image {
+  width: 50%;
+}
+
+footer {
+}
