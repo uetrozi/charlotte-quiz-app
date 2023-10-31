@@ -3,6 +3,7 @@
   border: 5px solid var(--border-color);
   width: 100vw;
   display: flex;
+  justify-content: space-around;
   color: var(--accent-color);
   background-color: var(--main-color);
   position: fixed;
@@ -10,7 +11,10 @@
   bottom: 0;
   z-index: 1;
 }
+.footer-navbar-link {
+  text-align: center;
+}
 
 .footer-navbar-image {
-  width: 50%;
+  width: 80px;
 }
