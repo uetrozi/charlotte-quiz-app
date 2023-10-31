@@ -1,0 +1,13 @@
+:root {
+    --main-color: rgb(172, 227, 227);
+    --main-color-light: rgb(139, 169, 169);
+    --border-color: rgb(0, 0, 0);
+    --third-color: rgb(63, 185, 204);
+    --accent-color: rgb(48, 73, 77);
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+  }
