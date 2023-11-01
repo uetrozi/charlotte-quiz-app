@@ -21,7 +21,6 @@
   border-radius: 10px;
   position: relative;
   padding-top: 30px;
-  padding-bottom: 10px;
 }
 
 .question {
@@ -44,8 +43,8 @@
   list-style: none;
   display: flex;
   gap: 10px;
-  flex-wrap: wrap;
   align-self: flex-start;
+  padding-left: 30px;
 }
 
 .tag {
@@ -54,4 +53,8 @@
   background-color: var(--third-color);
   padding: 5px;
   font-size: 0.8em;
+}
+
+.tag:hover {
+  background-color: var(--main-color);
 }
