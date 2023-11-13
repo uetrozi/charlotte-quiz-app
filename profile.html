@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charlotte Quiz App</title>
    <link rel="stylesheet" href="./style.css">
+   <script src="./profile.js" defer></script>
+
 </head>
 <body>
     <header class="title">Quiz App
     </header>
 
-    <main class="profile-content">
+    <main class="profile-content" data-js="profile-content">
         
             <section class="profile">
             <img class="profile-picture" src="./Images/Friendlygrizzly.jpeg" alt="Picture of a friendly Grizzlybear looking into the camera">
@@ -28,17 +30,12 @@
         </section>
         <section class="settings">
             <h1 class="settings-header">Settings</h1>
-            <h3 class="settings-item">Dark Mode<img class="toggle-button" src="./Images/toggle.svg" alt="toggle-button"></img></h3>
-
-                
-
-               
-
-            
-
-
-
-
+            <h3 class="settings-item">Dark Mode
+                <label class="switch">
+                    <input type="checkbox" data-js="setting-item__dark-mode">
+                    <span class="slider round"></span>
+                  </label>
+            </h3>
         </section>
 
 
@@ -57,6 +54,7 @@
 
         <a href="./index.html" class="footer-navbar-link" ><img class="footer-navbar-image" src="./Images/home.png" alt="button go to home"></img></a>
         <a href="./bookmarks.html" class="footer-navbar-link"><img class="footer-navbar-image" src="./Images/bookmark_transparent.png" alt="Button go to bookmarks"></img></a>
+        <a href="./form.html" class="footer-navbar-link"><img class="footer-navbar-image" src="./Images/add.png" alt="Button Got to Form"></img></a>
         <a href="./profile.html" class="footer-navbar-link-active"><img class="footer-navbar-image" src="./Images/profile_filled.png" alt="Button got to profile"></img></a>
         </nav>
     </footer>

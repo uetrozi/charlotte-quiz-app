@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlotte Quiz App</title>
+   <link rel="stylesheet" href="./style.css">
+   <script src="./form.js" defer></script>
+
+</head>
+<body>
+    <header class="title">Quiz App
+    </header>
+
+    <main class="main-content" data-js="main-content">
+      
+    <form class="form" data-js="form">
+        
+  
+            <label for="yourQuestion" aria-describedby="yourQuestion">Your question:</label>
+            <textarea 
+            id="yourQuestion" 
+            data-js="yourQuestion"
+            type="text" 
+            name="yourQuestion" 
+            rows="4" 
+            maxlength="200" 
+            required></textarea>
+            <small class="form__character-count"
+            ><span data-js="amountLeftQuestion"></span> characters left</small>
+
+            <label for="yourAnswer" aria-describedby="yourAnswer">Your answer:</label>
+            <textarea 
+            id="yourAnswer" 
+            data-js="yourAnswer"
+            type="text" 
+            name="yourAnswer" 
+            rows="4" 
+            maxlength="200" 
+            required></textarea>
+            <small class="form__character-count"
+            ><span data-js="amountLeftAnswer"></span> characters left</small>
+  
+            <label for="tag" aria-describedby="tag">Tag:</label>
+            <input id="tag" type="text" name="tag">
+
+            <button aria-label="SubmitButton" type="submit" class="form__submit-button"
+            data-js="form__submit-button">Submit</button>
+        
+
+    </form>
+
+    </main>
+    <footer>
+        <nav class="footer-navbar">
+    
+
+        <a href="./index.html" class="footer-navbar-link" ><img class="footer-navbar-image" src="./Images/home.png" alt="button go to home"></img></a>
+        <a href="./bookmarks.html" class="footer-navbar-link"><img class="footer-navbar-image" src="./Images/bookmark_transparent.png" alt="Button go to bookmarks"></img></a>
+        
+         <a href="./form.html" class="footer-navbar-link"><img class="footer-navbar-image" src="./Images/add_filled.png" alt="Button Got to Form"></img></a>
+         <a href="./profile.html" class="footer-navbar-link"><img class="footer-navbar-image" src="./Images/profile.png" alt="Button got to profile"></img></a>
+        </nav>
+    </footer>
+</body>
+</html>
