@@ -1,5 +1,7 @@
 console.clear();
 
+//toggle bookmark Icon
+
 const bookmark = document.querySelector('img[data-js="question-card__icon"]');
 
 bookmark.addEventListener("click", () => {
@@ -11,6 +13,8 @@ bookmark.addEventListener("click", () => {
     bookmark.setAttribute("src", "./Images/bookmark.png");
   }
 });
+
+// toggle answer
 
 const showAnswerButton = document.querySelector(
   '[data-js="question-card__button"]'
@@ -27,3 +31,5 @@ showAnswerButton.addEventListener("click", () => {
   answer.classList.toggle("hidden");
   toggleButtonText();
 });
+
+

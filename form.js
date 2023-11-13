@@ -1,6 +1,6 @@
 console.clear();
 
-// text counter
+// text counter, long version with double the code, sorry
 
 const questionElement = document.querySelector('[data-js="yourQuestion"]');
 const answerElement = document.querySelector('[data-js="yourAnswer"]');
