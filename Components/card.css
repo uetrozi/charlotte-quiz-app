@@ -23,35 +23,34 @@
   padding-top: 30px;
 }
 
-.question {
+.question-card__title {
   width: 60%;
   text-align: center;
 }
 
-.answer {
+.question-card__answer {
   visibility: hidden;
 }
 
-.bookmark {
+.question-card__icon {
   position: absolute;
   top: -30px;
   right: 20px;
   width: 80px;
 }
 
-.categories-list {
+.question-card__tags {
   list-style: none;
   display: flex;
   gap: 10px;
-  align-self: flex-start;
-  padding-left: 30px;
+  align-self: baseline;
 }
 
-.tag {
+.question-card__tag {
   border: 2px solid black;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: var(--third-color);
-  padding: 5px;
+  padding: 5px 10px;
   font-size: 0.8em;
 }
 
