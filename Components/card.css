@@ -28,11 +28,18 @@
   text-align: center;
 }
 
-.question-card__answer {
+.hidden {
   visibility: hidden;
 }
 
 .question-card__icon {
+  position: absolute;
+  top: -30px;
+  right: 20px;
+  width: 80px;
+}
+
+.question-card__icon--active {
   position: absolute;
   top: -30px;
   right: 20px;
