@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-top: 140px;
+  padding-top: 160px;
   padding-bottom: 130px;
   align-items: center;
   gap: 40px;
@@ -17,15 +17,16 @@
   border: 5px solid var(--border-color);
   width: 90%;
   height: 400px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   border-radius: 10px;
   position: relative;
-  padding-top: 30px;
+  padding: 30px;
 }
 
 .question-card__title {
   width: 60%;
   text-align: center;
+  margin: 5px;
 }
 
 .hidden {
@@ -50,7 +51,8 @@
   list-style: none;
   display: flex;
   gap: 10px;
-  align-self: baseline;
+  align-self: center;
+  padding: 0;
 }
 
 .question-card__tag {
