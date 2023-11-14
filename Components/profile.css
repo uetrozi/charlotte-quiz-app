@@ -1,6 +1,9 @@
 .profile-content {
   padding-top: 160px;
   padding-bottom: 140px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .dark-mode {
